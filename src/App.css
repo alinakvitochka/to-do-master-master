@@ -1,0 +1,113 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f4f7fa;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin-right: 10px;
+  width: 300px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 0 10px; /* Увеличено расстояние между кнопками */
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 600px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #fff;
+  margin: 5px 0;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+li.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+input[type="checkbox"] {
+  margin-right: 15px;
+}
+
+button.delete {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+button.delete:hover {
+  background-color: #e53935;
+}
+
+button.edit {
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-right: 5px;
+}
+
+button.edit:hover {
+  background-color: #1976D2;
+}
+
+button.save {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-right: 5px;
+}
+
+button.save:hover {
+  background-color: #45a049;
+}
